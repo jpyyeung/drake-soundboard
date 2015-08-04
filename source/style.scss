@@ -1,0 +1,105 @@
+@import 'normalize.scss';
+@import 'mixins.scss';
+@font-face {
+	font-family: 'drakeFont';
+	src: url('fonts/Late-Regular.eot');	
+	src: url('fonts/Late-Regular.woff') format('woff'),
+		url('fonts/Late-Regular.otf') format('opentype');
+}
+
+h1 {
+	font-family: 'drakeFont', 'Oswald', sans-serif;
+	font-size: 50px;
+	margin: 0;
+	text-align: center;
+	&:first-child {
+		margin: 20px;
+	}
+}
+h6 { 
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Oswald';
+	margin: 0;
+}
+a {
+	text-decoration: none;
+	color: black;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+.wrapper {
+	//background: lightblue;
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+	.thirds {
+		width: 100%;
+
+	}
+}
+.hide {
+	display: none;
+}
+.flex {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	//padding: 20px;
+}
+.sound {
+	width: 150px;
+	height: 150px;
+	margin: 20px;
+	border-radius: 50%;
+	border: 5px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	p {
+		font-family: 'Oswald';
+		text-transform: uppercase;
+		color: white;
+		font-size: 16px;
+		width: 70%;
+		text-align: center;
+		text-shadow: 1px 1px 5px #000;
+	}
+	&:hover {
+		-webkit-box-shadow: 0px 0px 15px 0px black;
+		box-shadow: 0px 0px 15px 0px black;
+	}
+}
+.sound1, .sound2, .sound3, .sound4, .sound5, .sound6, .sound7, .sound8, .sound9 {
+	-webkit-background-size: 110%;
+	background-size: 110%;
+}
+.sound1 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/started.png');
+}
+.sound2 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/okay.png');
+}
+.sound3 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/runnin.png');
+}
+.sound4 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/team.png');
+}
+.sound5 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/fancy.png');
+}
+.sound6{
+	background-image: url('http://jenniferyeung.ca/drizzy/img/home.png');
+}
+.sound7 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/best.png');
+}
+.sound8 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/proud.png');
+}
+.sound9 {
+	background-image: url('http://jenniferyeung.ca/drizzy/img/me.png');
+}
